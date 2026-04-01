@@ -10,11 +10,11 @@ public class BreedDetailResponse {
     private String name;
     private String size;
     private int energyLevel;
-    private int groomingLevel;   // 추가
-    private int friendliness;    // 추가
-    private int exerciseNeed;    // 추가
+    private int groomingLevel;
+    private int friendliness;
+    private int exerciseNeed;
     private int costMin;
     private int costMax;
-    private String description;  // 추가 (상세 설명)
+    private String description;
     private String thumbnailUrl;
 }
