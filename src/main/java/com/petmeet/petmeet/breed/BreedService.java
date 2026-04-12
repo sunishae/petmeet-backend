@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 public class BreedService {
 
     // final: 한번 주입되면 바뀌지 않음을 보장. @RequiredArgsConstructor가 생성자로 주입해줌.
-    private BreedRepository breedRepository;
+    private final BreedRepository breedRepository;
 
     // 전체 품종 목록 조회.
     // Entity(Breed)를 그대로 반환하지 않고 BreedResponse DTO로 변환해서 반환한다.
